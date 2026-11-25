@@ -13,6 +13,15 @@
         android:theme="@style/Theme.AMACW2"
         tools:targetApi="31">
         <activity
+            android:name=".MealsImagesScreen"
+            android:exported="false" />
+        <activity
+            android:name=".SavedMealsScreen"
+            android:exported="false" />
+        <activity
+            android:name=".MealByNameScreen"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
