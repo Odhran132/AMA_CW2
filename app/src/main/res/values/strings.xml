@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">AMA CW2</string>
+    <string name="saved_meals_count">Saved Meals in Room: %1$d</string>
+
+    <string name="btn_search">Search</string>
+    <string name="btn_back">Back</string>
+    <string name="searching">Searching…</string>
+    <string name="meal_image_desc">Meal image</string>
+
+    <string name="title_meal_by_name">Search Meal by Name (API)</string>
+    <string name="hint_meal_name">Exact meal name, e.g. Arrabiata</string>
+    <string name="btn_save_meal">Save Meal to Database</string>
+
+    <string name="title_saved_meals">Search Saved Meals (Room)</string>
+    <string name="hint_saved_search">Part of a meal or ingredient, e.g. pEp</string>
+
+    <string name="title_meals_images">Browse Meals and Images (API)</string>
+    <string name="hint_meal_title">Part of a meal title, e.g. chicken</string>
+    <string name="tap_title_hint">Tap a title to see its image</string>
 </resources>
