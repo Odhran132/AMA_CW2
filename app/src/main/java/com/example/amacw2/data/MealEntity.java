@@ -84,6 +84,95 @@ public class MealEntity implements Serializable
     private static String orNone(String value) {
         return (value == null || value.trim().isEmpty()) ? "None" : value;
     }
+
+    public Integer getMealId() {
+        return mealId;
+    }
+
+    public void setMealId(Integer mealId) {
+        this.mealId = mealId;
+    }
+
+    @NonNull
+    public String getMealName() {
+        return mealName;
+    }
+
+    public void setMealName(@NonNull String mealName) {
+        this.mealName = mealName;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public String getArea() {
+        return area;
+    }
+
+    public void setArea(String area) {
+        this.area = area;
+    }
+
+    public String getMealThumb() {
+        return mealThumb;
+    }
+
+    public void setMealThumb(String mealThumb) {
+        this.mealThumb = mealThumb;
+    }
+
+    public String getTags() {
+        return tags;
+    }
+
+    public void setTags(String tags) {
+        this.tags = tags;
+    }
+
+    public String getYoutube() {
+        return youtube;
+    }
+
+    public void setYoutube(String youtube) {
+        this.youtube = youtube;
+    }
+
+    public String getIngredient1() {
+        return ingredient1;
+    }
+
+    public void setIngredient1(String ingredient1) {
+        this.ingredient1 = ingredient1;
+    }
+
+    public String getIngredient2() {
+        return ingredient2;
+    }
+
+    public void setIngredient2(String ingredient2) {
+        this.ingredient2 = ingredient2;
+    }
+
+    public String getIngredient3() {
+        return ingredient3;
+    }
+
+    public void setIngredient3(String ingredient3) {
+        this.ingredient3 = ingredient3;
+    }
+
+    public String getIngredient4() {
+        return ingredient4;
+    }
+
+    public void setIngredient4(String ingredient4) {
+        this.ingredient4 = ingredient4;
+    }
 }
 
 
