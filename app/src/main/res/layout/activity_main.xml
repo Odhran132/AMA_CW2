@@ -22,16 +22,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="23dp"
         android:text="Browse Meals and Images"
-        app:layout_constraintStart_toStartOf="@+id/sMealSeachBtn"
-        app:layout_constraintTop_toBottomOf="@+id/sMealSeachBtn" />
+        app:layout_constraintStart_toStartOf="@+id/sMealSearchBtn"
+        app:layout_constraintTop_toBottomOf="@+id/sMealSearchBtn" />
 
     <Button
-        android:id="@+id/sMealSeachBtn"
+        android:id="@+id/sMealSearchBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
         android:layout_marginTop="37dp"
-        android:text="Seach Saved Meals"
+        android:text="Search Saved Meals"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mealByNameBtn" />
 
